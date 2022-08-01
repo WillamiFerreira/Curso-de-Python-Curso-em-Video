@@ -1,0 +1,3 @@
+#crie um programa que pergunta em qual cidade que voçe nasceu e retorna True se o primeiro nome da cidade for 'santos'.
+cidade = str(input('Em que cidade você nasceu?')).strip()#pede o nome da cidade e retira todos os espaços em branco no inicio e no final, com o método strip
+print(cidade[:5].upper() == 'SANTO')#fatia o nome lido para apenas os cinco primeiros algarismos, e deixa todos em maiúsculo, então verifica se o resultado é igual a "SANTOS".
